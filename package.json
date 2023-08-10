@@ -1,0 +1,32 @@
+{
+  "name": "assignment",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "lint": "eslint",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "ccxt": "^4.0.55",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.0",
+    "express": "~4.16.1",
+    "express-validator": "^7.0.1",
+    "morgan": "~1.9.1",
+    "mysql2": "^3.6.0",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.32.1",
+    "sequelize-cli": "^6.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "process": "^0.11.10"
+  }
+}
